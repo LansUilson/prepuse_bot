@@ -1,0 +1,25 @@
+{
+  "name": "prepuse_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LansUilson/prepuse_bot.git"
+  },
+  "author": "LansUilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LansUilson/prepuse_bot/issues"
+  },
+  "homepage": "https://github.com/LansUilson/prepuse_bot#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "better-sqlite3": "^7.6.2",
+    "jsdom": "^20.0.1",
+    "sqlite3": "^5.1.1"
+  }
+}
