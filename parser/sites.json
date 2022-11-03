@@ -1,60 +1,122 @@
 {
-	"math": [ 
+	"ege_math": [ 
 		"https://math-ege.sdamgia.ru/"
 	],
-	"mathb": [
+
+	"ege_mathb": [
 		"https://mathb-ege.sdamgia.ru/"
 	],
 	
-	"inf": [
+	"ege_inf": [
 		"https://inf-ege.sdamgia.ru/"
 	],
 	
-	"rus": [
+	"ege_rus": [
 		"https://rus-ege.sdamgia.ru/"
 	],
 	
-	"en": [
+	"ege_en": [
 		"https://en-ege.sdamgia.ru/"
 	],
 	
-	"de": [
+	"ege_de": [
 		"https://de-ege.sdamgia.ru/"
 	],
 
-	"fr": [
+	"ege_fr": [
 		"https://fr-ege.sdamgia.ru/"
 	],
 	
-	"sp": [
+	"ege_sp": [
 		"https://sp-ege.sdamgia.ru/"
 	],
 	
-	"phys": [
+	"ege_phys": [
 		"https://phys-ege.sdamgia.ru/"
 	],
 	
-	"chem": [
+	"ege_chem": [
 		"https://chem-ege.sdamgia.ru/"
 	],
 	
-	"bio": [
+	"ege_bio": [
 		"https://bio-ege.sdamgia.ru/"
 	],
 	
-	"geo": [
+	"ege_geo": [
 		"https://geo-ege.sdamgia.ru/"
 	],
 	
-	"soc": [
+	"ege_soc": [
 		"https://soc-ege.sdamgia.ru/"
 	],
 	
-	"lit": [
+	"ege_lit": [
 		"https://lit-ege.sdamgia.ru/"
 	],
 	
-	"hist": [
+	"ege_hist": [
 		"https://hist-ege.sdamgia.ru/"
+	],
+
+	"oge_math": [ 
+		"https://math-oge.sdamgia.ru/"
+	],
+
+	"oge_ruso": [
+		"https://ruso-oge.sdamgia.ru/"
+	],
+	
+	"oge_inf": [
+		"https://inf-oge.sdamgia.ru/",
+		"https://kpolyakov.spb.ru/school/oge/generate.htm"
+	],
+	
+	"oge_rus": [
+		"https://rus-oge.sdamgia.ru/"
+	],
+	
+	"oge_en": [
+		"https://en-oge.sdamgia.ru/"
+	],
+	
+	"oge_de": [
+		"https://de-oge.sdamgia.ru/"
+	],
+
+	"oge_fr": [
+		"https://fr-oge.sdamgia.ru/"
+	],
+	
+	"oge_sp": [
+		"https://sp-oge.sdamgia.ru/"
+	],
+	
+	"oge_phys": [
+		"https://phys-oge.sdamgia.ru/"
+	],
+	
+	"oge_chem": [
+		"https://chem-oge.sdamgia.ru/"
+	],
+	
+	"oge_bio": [
+		"https://bio-oge.sdamgia.ru/"
+	],
+	
+	"oge_geo": [
+		"https://geo-oge.sdamgia.ru/"
+	],
+	
+	"oge_soc": [
+		"https://soc-oge.sdamgia.ru/"
+	],
+	
+	"oge_lit": [
+		"https://lit-oge.sdamgia.ru/"
+	],
+	
+	"oge_hist": [
+		"https://hist-oge.sdamgia.ru/"
 	]
 }
