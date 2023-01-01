@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src; node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
     "axios": "^1.1.2",
     "better-sqlite3": "^7.6.2",
     "jsdom": "^20.0.1",
-    "node-telegram-bot-api": "^0.59.0",
-    "sqlite3": "^5.1.1"
+    "sqlite3": "^5.1.1",
+    "telegraf": "^4.11.2"
   }
 }
