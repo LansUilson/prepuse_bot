@@ -1,3 +1,41 @@
+const aboba = [
+  [
+    { text: 'Математика (База)', callback_data: 'ex_mathb' },
+    { text: 'Математика (Проф)', callback_data: 'ex_math' }
+  ],
+  [
+    { text: 'Русский язык', callback_data: 'ex_rus' },
+    { text: 'Информатика и ИКТ', callback_data: 'ex_inf' }
+  ],
+  [
+    { text: 'Физика', callback_data: 'ex_phys' },
+    { text: 'Обществознание', callback_data: 'ex_soc' }
+  ],
+  [
+    { text: 'Химия', callback_data: 'ex_chem' },
+    { text: 'Биология', callback_data: 'ex_bio' }
+  ],
+  [ { text: 'Следующая страница', callback_data: 'prevPSubs' } ],
+  [ { text: 'Предметы выбраны!', callback_data: 'doneSubs' } ],
+  [ { text: 'Назад', callback_data: 'start' } ]
+];
+
+for(var k of aboba) {
+	for(var key in k) {
+		console.log(k[key]);
+	}
+}
+
+
+
+
+/*const { format } = require('util');
+const ma = {
+	"chamba": "mamum: ${baban}"
+};
+const baban = 'jungle';
+console.log(ma.chamba);
+
 /*const axios = require('axios');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
@@ -28,9 +66,9 @@ const exercices = axios.get("http://80.250.169.4/os/xmodules/qprint/qsearch.php?
 		console.log(a.innerHTML);
 	})
 });
-*/
+
 var request = require("request");
 var url = "http://80.250.169.4/os/xmodules/qprint/qsearch.php?theme_guid=4BE9873EF46DB209473CFCC27C95FA75&proj_guid=74676951F093A0754D74F2D6E7955F06&groupno=0";
 request(url, function(err,res,body) {
 	console.log(body);
-})
+})*/

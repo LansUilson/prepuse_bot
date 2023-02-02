@@ -1,3 +1,17 @@
+function format(str, args=0) {
+	if(args != 0) {
+		for(var key in args) {
+			str = str.replace(`%(${key})`, args[key]);
+		};
+		return str;
+	} else {
+		if(str == "ege") { 
+			return "ЕГЭ";
+		} else { 
+			return "ОГЭ";
+		};
+	}
+};
 
 function hashCode(string) {
 	return Array.from(string)
@@ -5,5 +19,6 @@ function hashCode(string) {
 };
 
 module.exports = {
-	hashCode: hashCode
+	format,
+	hashCode
 };
