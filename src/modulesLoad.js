@@ -1,13 +1,13 @@
 const fs = require('fs');
 
-function getDirFiles(path='', jss=[]) {
+function getDirFiles(path='', jss=[]) { 
     path = path ? path : `${__dirname}/modules`;
     const files = fs.readdirSync(path);
 
     files.forEach(file => {
         if ( fs.lstatSync(`${path}/${file}`).isDirectory() ) {
             getDirFiles(`${path}/${file}`, jss);
-        } else if ( file.endsWith(".js") ) {
+        } else if (file.endsWith(".js")) {
             jss.push(`${path}/${file}`);
         };
     });
